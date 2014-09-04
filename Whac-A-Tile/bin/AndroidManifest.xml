@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.whac_a_tile"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_whac_tile"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.whac_a_tile.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.whac_a_tile.GamePage"
+            android:label="@string/title_activity_game_page" >
+        </activity>
+        <activity
+            android:name="com.whac_a_tile.VideoPage"
+            android:label="@string/title_activity_video_page" >
+        </activity>
+        <activity
+            android:name="com.whac_a_tile.GameActivity"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name="com.whac_a_tile.AddScore"
+            android:label="@string/title_activity_add_score" >
+        </activity>
+        <activity
+            android:name="com.whac_a_tile.HIghScoreDisplay"
+            android:label="@string/title_activity_high_score_display" >
+        </activity>
+    </application>
+
+</manifest>

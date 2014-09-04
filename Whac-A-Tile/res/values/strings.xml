@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whac-A-Tile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_game_page">Game Page</string>
+    <string name="title_activity_video_page">VideoPage</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_score">AddScore</string>
+    <string name="title_activity_high_score_display">HIghScoreDisplay</string>
+
+</resources>
